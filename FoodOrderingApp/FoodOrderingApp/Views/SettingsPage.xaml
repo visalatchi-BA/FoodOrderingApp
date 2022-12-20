@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FoodOrderingApp.Views.SettingsPage"
+             BackgroundImageSource="vi.jpg">
+    <ContentPage.Content>
+        <StackLayout Margin="90">
+            <Button Text="Manage Categories" x:Name="Button Categories" Clicked="ButtonCategories_Clicked" HorizontalOptions="Center" BackgroundColor="Purple" TextColor="White" CornerRadius="15"/>
+            <Button Text="Manage Products" x:Name="Button Products" Clicked="ButtonProducts_Clicked" HorizontalOptions="Center" TextColor="White" BackgroundColor="Purple" CornerRadius="15"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
